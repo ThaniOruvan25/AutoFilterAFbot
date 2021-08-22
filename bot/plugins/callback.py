@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"<i>If You Didn't Get Movies From Me Type @admin [Movie Name] </i> <code>{leng}</code> <i>Results For Your Requested Movie:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
